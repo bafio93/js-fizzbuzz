@@ -5,19 +5,14 @@
     font-family: 'Yeon Sung', cursive;
 }
 
-#container {
-    height: 100vh;
-    padding-top: 40vh;
-    text-align: center;
+body {
     background-color: pink;
     animation-name: nice;
     animation-duration: 20s;
     animation-iteration-count: infinite;
-}
-
-#container #outcome {
     font-size: 250%;
     color: black;
+    text-align: center;
 }
 
 @keyframes nice {
